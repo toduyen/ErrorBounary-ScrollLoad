@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 export default function UseFetchingData(initialUrl, initialData) {
   const [Data, setData] = useState(initialData);
   const [Url, setUrl] = useState(initialUrl);

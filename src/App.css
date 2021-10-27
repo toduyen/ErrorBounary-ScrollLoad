@@ -38,16 +38,19 @@
 }
 
 .List {
-  border: 1px solid #d9dddd;
+  border: 1px solid black;
+
 }
 
 .ListItemEven,
 .ListItemOdd {
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   padding-left: 12px;
-  height: auto;
   font-size: 12px;
+  border: 1px solid black;
+  width: auto;
+  height: auto;
 }
 
 .ListItemEven {
